@@ -2,18 +2,23 @@ Cosmpolitan
 ==============
 A 4kb JavaScript library with no dependencies that gets your app talking
 
+What is this?
+--------------
+
+    cosmpolitan.google(); // "https://plus.google.com/share?url=https://github.com/vergun/cosmopolitan"
+
 How to get started
 --------------
 
-- 1. Set your defaults
-- 2. Set your links
-- 3. Relax and enjoy
+- 1 Set your defaults
+- 2 Set your links
+- 3 Relax and enjoy
 
-1. Set your defaults
+1 Set your defaults
 --------------
 At the top of *cosmopolitan.js* and *cosmopolitan_min.js* is a defaults object literal.
 
-  defaults: {
+    defaults: {
     
     // your website URL, defaults to current url
     url: window.location.href,
@@ -32,11 +37,14 @@ At the top of *cosmopolitan.js* and *cosmopolitan_min.js* is a defaults object l
     
     // replae with your application's image, defaults to Cosmpolitan's application image
     app_image_url: "https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-prn1/851578_472160816206236_251760216_n.png"
-  }
+    }
 
-  Change these defaults to suit your needs. For example set *url* as your website url, *source* as your company name, and *summary* as your page's summary. You can always override these defaults inline by calling *cosmopolitan.defaults.source = "new source"; for example.
+  Change these defaults to suit your needs. For example set *url* as your website url, *source* as your company name, and *summary* as your page's summary. 
   
-2. Set your links
+  Rather than change defaults application wide, you can alternatively set these defaults on each page for example:
+    cosmopolitan.defaults.source = "new source";
+  
+2 Set your links
 --------------
 
 Cosmpolitan.js exposes six social services each that maps to a function which returns a URl that shares your website's content. For example if I'm on "http://www.verdiergun.com" calling cosmopolitan.google() returns "https://plus.google.com/share?url=http://verdiergun.com/"
@@ -50,18 +58,18 @@ These are the services and this is how they map:
 - twitter     : cosmopolitan.twitter()
 - facebook    : cosmopolitan.facebook()
 
-This library doesn't make assumptions about where you will embed these links, that's up to you, for example if you have this chunk of HTML:
+This library doesn't make assumptions about where you will embed these links. For example if you have this HTML:
 
-<a href="" id="google">Share on Google</a>
+    <a href="" id="google">Share on Google</a>
 
-You could call to set up sharing:
+You could set up sharing with:
 
-  $('#google').href(cosmopolitan.google()) //using Jquery
+    $('#google').href(cosmopolitan.google()) //using Jquery
   
-  document.getElementById('google').href = cosmopolitan.google() //using regular JavaScript
+    document.getElementById('google').href = cosmopolitan.google() //using regular JavaScript
   
   
-3. Relax and enjoy
+3 Relax and enjoy
 --------------
 
 Now you can sit back, relax and enjoy your Cosmpolitan. 
