@@ -48,7 +48,7 @@ Change these defaults to suit your needs. For example set *url* as your website 
 Rather than change defaults application wide, you can alternatively set these defaults on each page for example:
 
     cosmopolitan.defaults.source = "My Company";
-    cosmpolitan.defaults.description = "My Company provides tools for businesses.";
+    cosmopolitan.defaults.description = "My Company provides tools for businesses.";
   
 2 Set your links
 --------------
