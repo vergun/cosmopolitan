@@ -43,10 +43,12 @@ At the top of *cosmopolitan.js* and *cosmopolitan_min.js* is a defaults object l
     app_image_url: "https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-prn1/851578_472160816206236_251760216_n.png"
     }
 
-  Change these defaults to suit your needs. For example set *url* as your website url, *source* as your company name, and *summary* as your page's summary. 
+Change these defaults to suit your needs. For example set *url* as your website url, *source* as your company name, and *summary* as your page's summary. 
   
-  Rather than change defaults application wide, you can alternatively set these defaults on each page for example:
-    cosmopolitan.defaults.source = "new source";
+Rather than change defaults application wide, you can alternatively set these defaults on each page for example:
+
+    cosmopolitan.defaults.source = "My Company";
+    cosmpolitan.defaults.description = "My Company provides tools for businesses."
   
 2 Set your links
 --------------
@@ -76,7 +78,13 @@ You could set up sharing with:
 3 Relax and enjoy
 --------------
 
-Now you can sit back, relax and enjoy your Cosmpolitan. 
+Everything feels good. Sit back, relax, and enjoy a fresh Cosmpolitan.
+
+<img src="https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-prn1/851578_472160816206236_251760216_n.png" alt="Cosmopolitan" />
+
+License, etc...
+--------------
+MIT License. Copyright 2013 Verdi Ergun.
 
   
 
