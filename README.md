@@ -82,9 +82,11 @@ Everything feels good. Sit back, relax, and enjoy a fresh Cosmpolitan.
 
 <img src="https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-prn1/851578_472160816206236_251760216_n.png" alt="Cosmopolitan" />
 
-License, etc...
+About, License, etc...
 --------------
-MIT License. Copyright 2013 Verdi Ergun.
+This library was created from our <a href="http://instoredoes.com/blog">blog</a>. We use the library to power our own social service sharing.
+
+MIT License. © MMIX – MMXIII Own Group, Inc. All rights reserved.
 
   
 
