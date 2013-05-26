@@ -2,12 +2,16 @@ Cosmpolitan
 ==============
 A 4kb JavaScript library with no dependencies that gets your app talking
 
-What is this?
---------------
+    cosmpolitan.google();   // "https://plus.google.com/share?url=https://github.com/vergun/cosmopolitan"
+    cosmpolitan.twitter();  // "http://twitter.com/home?status=vergun%2Fcosmopolitan%20%C2%B7%20GitHub%3A%20https%3A%2F%2Fgithub.com%2Fvergun%2Fcosmopolitan"
 
-    cosmpolitan.google(); // "https://plus.google.com/share?url=https://github.com/vergun/cosmopolitan"
+Try them out yourself:
+   <a href="https://plus.google.com/share?url=https://github.com/vergun/cosmopolitan">Share on Google</a>
+   <a href="http://twitter.com/home?status=vergun%2Fcosmopolitan%20%C2%B7%20GitHub%3A%20https%3A%2F%2Fgithub.com%2Fvergun%2Fcosmopolitan">Share on Twitter</a>
 
-How to get started
+Cosmopolitan has built-in support for Facebook, Twitter, Stumbleupon, GooglePlus, Reddit, and LinkedIn.
+
+Three easy steps
 --------------
 
 - 1 Set your defaults
@@ -73,6 +77,7 @@ You could set up sharing with:
 --------------
 
 Now you can sit back, relax and enjoy your Cosmpolitan. 
+
   
 
 
