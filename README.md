@@ -2,12 +2,12 @@ Cosmpolitan
 ==============
 A 4kb JavaScript library with no dependencies that gets your app talking
 
-    cosmpolitan.google();   // "https://plus.google.com/share?url=https://github.com/vergun/cosmopolitan"
-    cosmpolitan.twitter();  // "http://twitter.com/home?status=vergun%2Fcosmopolitan%20%C2%B7%20GitHub%3A%20https%3A%2F%2Fgithub.com%2Fvergun%2Fcosmopolitan"
+    cosmpolitan.google();   // "https://plus.google.com/share?url=https://github.com/instore/cosmopolitan"
+    cosmpolitan.twitter();  // "http://twitter.com/home?status=instore%2Fcosmopolitan%20%C2%B7%20GitHub%3A%20https%3A%2F%2Fgithub.com%2Finstore%2Fcosmopolitan"
 
 Try them out yourself:
-   <a href="https://plus.google.com/share?url=https://github.com/vergun/cosmopolitan">Share on Google</a>
-   <a href="http://twitter.com/home?status=vergun%2Fcosmopolitan%20%C2%B7%20GitHub%3A%20https%3A%2F%2Fgithub.com%2Fvergun%2Fcosmopolitan">Share on Twitter</a>
+   <a href="https://plus.google.com/share?url=https://github.com/instore/cosmopolitan">Share on Google</a>
+   <a href="http://twitter.com/home?status=instore%2Fcosmopolitan%20%C2%B7%20GitHub%3A%20https%3A%2F%2Fgithub.com%2Finstore%2Fcosmopolitan">Share on Twitter</a>
 
 Cosmopolitan has built-in support for Facebook, Twitter, Stumbleupon, GooglePlus, Reddit, and LinkedIn.
 
@@ -48,7 +48,7 @@ Change these defaults to suit your needs. For example set *url* as your website 
 Rather than change defaults application wide, you can alternatively set these defaults on each page for example:
 
     cosmopolitan.defaults.source = "My Company";
-    cosmpolitan.defaults.description = "My Company provides tools for businesses."
+    cosmpolitan.defaults.description = "My Company provides tools for businesses.";
   
 2 Set your links
 --------------
@@ -70,7 +70,7 @@ This library doesn't make assumptions about where you will embed these links. Fo
 
 You could set up sharing with:
 
-    $('#google').href(cosmopolitan.google()) //using Jquery
+    $('#google').href(cosmopolitan.google()) //using jQuery
   
     document.getElementById('google').href = cosmopolitan.google() //using regular JavaScript
   
@@ -78,7 +78,7 @@ You could set up sharing with:
 3 Relax and enjoy
 --------------
 
-Everything feels good. Sit back, relax, and enjoy a fresh Cosmpolitan.
+Sit back, relax, and enjoy a fresh Cosmpolitan.
 
 <img src="https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-prn1/851578_472160816206236_251760216_n.png" alt="Cosmopolitan" />
 
